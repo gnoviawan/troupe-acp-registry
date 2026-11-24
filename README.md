@@ -8,7 +8,7 @@ Published file: `https://gnoviawan.github.io/troupe-acp-registry/v1/troupe.json`
 
 ## Change an agent's logo, colour or name
 
-- Add `logos/<agent-id>.svg`. Any SVG with a `viewBox` works, including full-colour logos. Scripts, event handlers, `<foreignObject>` and external links are rejected. The limit is 64 KB.
+- Add `logos/<agent-id>.svg`. Any SVG with a `viewBox` works, including full-colour logos. Scripts, `<style>`, `<image>`, `<a>`, event handlers, `<foreignObject>` and external links are rejected. Troupe applies the same rules again before it draws a logo. The limit is 64 KB.
 - Add or edit the agent's entry in `overrides.json`:
 
 ```json

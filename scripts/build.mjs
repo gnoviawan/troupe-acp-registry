@@ -51,6 +51,9 @@ function checkSvg(where, svg) {
   const banned = [
     [/<script\b/i, '<script>'],
     [/<foreignObject\b/i, '<foreignObject>'],
+    [/<style\b/i, '<style> (it would style the whole app)'],
+    [/<image\b/i, '<image>'],
+    [/<a[\s>]/i, '<a>'],
     [/<!ENTITY/i, 'XML entities'],
     [/\son[a-z]+\s*=/i, 'event handler attributes'],
     [/\b(?:xlink:)?href\s*=\s*["'](?!#)/i, 'external href (only #fragment allowed)'],
