@@ -1,0 +1,15 @@
+{
+  "claude-acp": {
+    "brandColor": { "light": "#C15F3C", "dark": "#D97757" }
+  },
+  "gemini": {
+    "brandColor": {
+      "light": "#1C69FF",
+      "dark": "#4796E3",
+      "gradient": { "light": ["#1C69FF", "#9168C0"], "dark": ["#4796E3", "#9177C7"] }
+    }
+  },
+  "mistral-vibe": {
+    "brandColor": { "light": "#D9440A", "dark": "#FA520F" }
+  }
+}
