@@ -35,3 +35,11 @@ node scripts/build.mjs --offline  # skips the upstream id check
 ```
 
 Every pull request runs the build. A push to `main` publishes `dist/` to GitHub Pages. A daily job keeps one issue listing the upstream agents that still have no logo here.
+
+## Logos and trademarks
+
+The code and data here are MIT licensed. Agent logos remain trademarks of their owners and are used only to identify those agents in Troupe.
+
+## Security
+
+See [SECURITY.md](SECURITY.md).
